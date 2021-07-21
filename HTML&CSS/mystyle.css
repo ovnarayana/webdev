@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    padding: 80px;
+    margin: 80px;
+    color: navy;
+    margin-left: 20px;
+  }

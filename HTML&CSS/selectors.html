@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center {
+          text-align: center;
+          color:green;
+        }
+
+        #para1 {
+            text-align: center;
+            color: red;
+        }
+
+        p {
+            text-align: right;
+            color: rgb(47, 0, 255);
+        }
+
+        div[name]{
+            color: indigo;
+        }
+
+        div[name="greetings"]{
+            color:maroon
+        }
+    </style>
+    <title>Let's study selectors</title>
+</head>
+<body>
+    <h1 class="center">Green and center-aligned heading</h1>  
+    <p class="center">Green and center-aligned paragraph.</p> 
+    
+    <br><br>
+    
+    <p id="para1">Hello World!</p>
+    <p>This paragraph is not affected by the style.</p>
+
+    <br><br>
+
+    <div name>Hello Web devs</div>
+
+    <br><br>
+
+    <div name="greetings">This is value attribute selector</div>
+</body>
+</html>

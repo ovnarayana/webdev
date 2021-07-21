@@ -1,0 +1,62 @@
+div{
+    position: static;
+}
+
+.element{
+    display: none;
+}
+
+@media (min-width: 768px){
+    ..css properties
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+//tablet
+@media (min-width: 768px){
+    ...
+}
+
+//laptops
+@media (min-width: 1024px){
+    ..
+}
+
+//large screen laptop and pc
+@media (min-width: 1280px){
+    ...
+}
+
+//large screen pc
+@media (min-width: 1536px){
+    ..
+}
+
+.element{
+    display:flex;
+}
+
+FlexBox Properties
+1)Flex Direction - row(default),column,row reveresed,column reveresed
+2)Justify Content - flex-start(default), flex-end, center, space-between, space-evenly, space-around
+3)Align Items - stretch(default), center, flex-start, flex-end, baseline
+4)Flex Wrap - wrap, nowrap(default), wrap-reverse
+5)Align Self - stretch(default), center, flex-start, flex-end, baseline
+
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+</div>
+
+.grid-container{
+    display:grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}

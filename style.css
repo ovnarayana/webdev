@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "merriweather",sans-serif;
+  background-color: #ebf2ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+section{
+  margin: 4rem 0;
+}
+
+.container{
+
+}
+
+@media(min-width: 768px){
+   
+}
+
+@media(min-width: 1200px){
+   .container{
+     max-width: 1140px;
+   }
+   .navbar{
+     padding: 0 3rem;
+   }
+   .button_primary{
+     padding: 1rem 2rem;
+     font-size: 1rem;
+   }
+
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafc;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 9999;
+}
+
+.navbar_brand{
+  width: 100px;
+}
+
+.brand_logo{
+  width: 100%;
+}
+
+.navbar_nav_items{
+  display: flex;
+}
+.button_primary{
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% ) ;
+}
+.button_primary{
+  margin:10px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-weight: 600;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.button_primary:hover{
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
